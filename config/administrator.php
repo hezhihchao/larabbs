@@ -46,7 +46,10 @@ return array(
             'categories',
             'topics',
             'replies',
-        ]
+        ],
+        '站点管理' => [
+            'settings.site',
+        ],
     ],
 
     /*
@@ -84,7 +87,7 @@ return array(
     'login_redirect_key' => 'redirect',
 
     // 控制模型数据列表页默认的显示条目
-    'global_rows_per_page' => 20,
+    'global_rows_per_page' => 10,
 
     // 可选的语言，如果不为空，将会在页面顶部显示『选择语言』按钮
     'locales' => [],
